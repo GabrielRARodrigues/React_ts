@@ -28,7 +28,7 @@ class Formulario extends React.Component {
             required
           />
         </fieldset>
-        <Botao />
+        <Botao>Adicionar</Botao>
       </form>
     )
   }
