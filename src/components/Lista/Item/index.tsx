@@ -1,12 +1,10 @@
+import { ITarefa } from '../../../types/tarefa'
 import style from '../Lista.module.scss'
 
 export default function Item({
   tarefa,
   tempo
-}: {
-  tarefa: string
-  tempo: string
-}) {
+}: ITarefa) {
   return (
     <li className={style.item}>
       <h3>{tarefa}</h3>
